@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap);
+
+main{
+    background-color: white;  
+    width: 600px; 
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #012020;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #0FC2C0, #023535);
+    text-align: justify;
+}
+
+h1{
+    font-family: kalam;
+    color: #023535;
+    text-shadow: 1px 1px 2px #023535;
+    text-align: center;
+}
+
+h2{
+    color: #014b4a;
+}

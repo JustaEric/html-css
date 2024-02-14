@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial::before{
+            content: '-->';
+            text-decoration: none;
+            color: black;
+        }
+
+        .especial::after{
+            content: '<--';
+            text-decoration: none;
+            font-weight: 100;
+            color: black;
+        }
+        .especial{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=clwTST1C0Nw">Musashi</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vqTSB78FG-E" class="especial">Thorfinn</a></li>
+        <li><a href="https://www.youtube.com/watch?v=AR4d4rm0y1U">  Guts</a></li>
+    </ul>
+</body>
+</html>

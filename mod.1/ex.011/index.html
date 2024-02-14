@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagen dinâmica</h1>
+    <p>Tente abrir essa imagem no site</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h2>Testando</h2>
+    <p>damn bro look at this</p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="imagens/gon-300.jpg" type="image/png">
+        <img src="imagens/musashi-800.png" alt="musashi">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Reproduzindo aúdios em HTML5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/essa porra aqui.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não aceita audios, clique <a href="midia/essa porra aqui.mp3"> aqui</a> para ser encaminhado para o audio</p>
+    </audio>
+</body>
+</html>

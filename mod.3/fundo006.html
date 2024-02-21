@@ -7,18 +7,31 @@
 
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(ex.022/imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: repeat-y;
+            background-position: center center;
+            background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+            */
+
+            /*
+            shorthand:          
+                 color > image > position > / > size > repeat > attachment. 
+
+                Exemplo:
+                background: #000 url('imagem.jpg') center top/cover no-repeat fixed;
+                */
+
+            background: black url(ex.022/imagens/wallpaper002.jpg) center center/ cover no-repeat fixed
+            
         }
 
         main{
             background-color: white;
-            max-width: 800px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
